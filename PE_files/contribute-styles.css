@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* CSS Document for Contribute */
+
+
+/*********** BASIC SETTINGS **************/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0 0 8px 0;
+	font-weight: bold;
+	color:#3e5950;
+	line-height: 115%;
+}
+
+h1 b, h2 b, h3 b, h4 b, h5 b, h6 b,
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
+  color:#666666;
+}
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link {
+	text-decoration:none;
+	color:#930000;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+	text-decoration:underline;
+	  color:#CE0000;
+}
+
+h1 {
+  font-size: 210%;
+}
+
+h2 {
+  font-size: 190%;
+}
+
+h3 {
+  font-size: 160%;
+}
+
+h4 {
+  font-size: 140%;
+}
+
+h5 {
+  font-size: 130%;
+}
+
+h6 {
+  font-size: 100%;
+}
+
+p, ul, ol, td, div {
+  font-size: 12px;
+  line-height: 20px;
+	}
+p  {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+blockquote {
+	padding:0;
+	margin: 0 20px 10px 35px;
+	}
+	
+	
+
+.textLarge, p.textLarge, p .textLarge {
+	font-size:130%;
+	line-height:130%;
+	}
+.textLarge a, a.textLarge, p .textLarge a, .textLarge a:visited, a.textLarge:visited, p .textLarge a:visited {
+	text-decoration:none;
+	}
+.textLarge a:hover, a.textLarge:hover, p .textLarge a:hover {
+	text-decoration:underline;
+	}
+.textSmall, p.textSmall, p .textSmall {
+	font-size:90%;
+	line-height:110%;
+	}
+
+
+/* tables */
+
+.projTable table { 
+	width:310px;
+	padding-bottom:20px;
+	}
+
+.projTable td,
+.projTable th {
+	padding: 6px 4px;
+	margin: 0px;
+	font-size:12px;
+	line-height: 13px;
+	text-align:left;
+	background:#dbcca5;
+	border-bottom:#FFFFFF solid 1px;
+	border-right:#FFFFFF solid 1px;
+	vertical-align:top;
+	}
+.projTable tr {	}
+.projTable th {	
+	font-weight:bold;
+	width: 100px;
+	 }
+	 
+	 
+/*********** EXTRAS **************/
+
+.keyFeaturesTitle, #rightCol h3 {
+	color: #B28324;
+	font-weight: bold;
+	font-size: 17px;
+	font-family:"Trebuchet MS", Trebuchet, Verdana, tahoma, Arial;
+	margin:0;
+	padding: 7px 0 1px 0;
+}
+
+.RelatedLinks, #rightCol h5 {
+	color: #B28324;
+	font-weight: bold;
+	font-size: 15px;
+	font-family:"Trebuchet MS", Trebuchet, Verdana, tahoma, Arial;
+	margin:0;
+	padding: 7px 0 1px 0;
+}
+
+h6 a, 
+p a.pdfLink
+ {
+	padding:0;
+	margin:0 0 -10px 0;
+	}
+p a.pdfLink, h6 a {
+	color:#990000;
+	text-decoration:none;
+	font-size: 13px;
+	line-height:14px;
+	font-weight:bold;
+	display:block;
+	background: url(../-images/pdf-icon-sm.gif) no-repeat;
+	padding: 10px 0px 0px 40px;
+	height: 24px;
+	}
+h6 a:visited, p a.pdfLink:visited { text-decoration:none; }
+h6 a:hover, p a.pdfLink:hover { text-decoration:underline; }
+
+#rightCol ul {
+	margin: 0;
+	padding: 10px 0 10px 20px;
+	}
+	
+#rightCol li {
+  	list-style:outside;
+	list-style-type:square;
+	text-align:left;
+	}
+
+
+li.keyFeaturesList, 
+ul.keyFeaturesList li,
+.keyFeaturesList li  {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	line-height:15px;
+	font-weight:bold;
+	color:#444444;
+	padding-bottom: 7px;
+	list-style:square;
+	}
+	
+li.relatedLinksList, 
+ul.relatedLinksList li,
+.relatedLinksList li  {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	line-height:13px;
+	font-weight:bold;
+	color:#555555;
+	padding-bottom: 5px;
+	list-style:square;
+	}
+	
+#rightCol li.pdfLink { list-style:none ; list-style-position:inside;
+	 }
+	
+#rightCol li.pdfLink a, 
+#rightCol ul.pdfLink li a,
+#rightCol .pdfLink li a  {
+	margin:0 0 0 -20px;
+	font-size:12px;
+	line-height:13px;
+	font-weight:bold;
+	padding: 9px 0px 14px 40px;
+	list-style:none;
+	display:block;
+	background: url(../-images/pdf-icon-sm.gif) no-repeat;
+	}
+.required {
+	background-color:#f2ebb0; }
+	
+.float-right {float:right}
+.float-left {float:left}
+.float-clear {clear:both}
+
+img.float-right {padding:0 0 0 10px;}
+img.float-left {padding:0 10px 0 0;}
+img.border{
+	border:1px #999999 solid;
+	width:200px;
+	height:auto;
+	}
+#projLeft img.border{
+	width:308px;
+	height:auto;
+	margin: 0 0 10px 0;
+	padding:0;
+	}
+
+table.thumbnail img {
+	width:200px;
+	height:140px;
+	padding:0 0 5px 0;	
+	display:block;
+		}
+table.thumbnail {
+	margin:0;
+	padding:0;
+	 }
+table.thumbnail td {
+	width:200px;
+	padding: 0 10px 20px 0;
+	text-align:center;
+	vertical-align:top;
+	}
+table.thumbnail a, table.thumbnail a:visited {
+	text-decoration:none;
+	font-weight:bold;
+	line-height:14px;
+	} 
+table.thumbnail a:hover img {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+	}
+.headshot {
+	float:right;
+	display: block;
+	padding: 0 60px 5px 0;
+	}
